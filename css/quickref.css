@@ -126,6 +126,22 @@
     color: maroon;
 }
 
+#section-round, #section-round .item-icon {
+    background-color: rgb(23, 23, 156);
+    border-color: rgb(23, 23, 156);
+}
+#section-round .text {
+    color: rgb(23, 23, 156);
+}
+
+#section-stances, #section-stances .item-icon {
+    background-color: rgb(69, 182, 17);
+    border-color: rgb(69, 182, 17);
+}
+#section-stances .text {
+    color: rgb(69, 182, 17);
+}
+
 #section-action, #section-action .item-icon {
     background-color: black;
     border-color: black;

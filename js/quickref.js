@@ -57,14 +57,12 @@ function fill_section(data, parentname, type) {
 }
 
 function init() {
+    fill_section(data_round, "round-structure", "Round");
+    fill_section(data_stances, "basic-stances", "Stances");
     fill_section(data_movement, "basic-movement", "Move");
     fill_section(data_action, "basic-actions", "Action");
-    fill_section(data_bonusaction, "basic-bonus-actions", "Bonus action");
     fill_section(data_reaction, "basic-reactions", "Reaction");
     fill_section(data_condition, "basic-conditions", "Condition");
-    fill_section(data_environment_obscurance, "environment-obscurance", "Environment");
-    fill_section(data_environment_light, "environment-light", "Environment");
-    fill_section(data_environment_vision, "environment-vision", "Environment");
     fill_section(data_environment_cover, "environment-cover", "Environment");
 
     var modal = document.getElementById("modal");

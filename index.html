@@ -16,6 +16,34 @@
 <body class="page-background">
     <div class="page fontsize" data-size="fullscreen">
 
+        <!-- Round section -->
+        <div id="section-round" class="section-container">
+            <div class="section-title">
+                Combat Round order</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    You can move at any time during your turn (before, after, or during actions).
+                </div>
+                <div class="section-row" id="round-structure">
+                </div>
+            </div>
+        </div>
+
+        <!-- Stances section -->
+        <div id="section-stances" class="section-container">
+            <div class="section-title">
+                Stances</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    Before your attack, you must choose an stance.
+                </div>
+                <div class="section-row" id="basic-stances">
+                </div>
+            </div>
+        </div>
+
         <!-- Movement section -->
         <div id="section-movement" class="section-container">
             <div class="section-title">
@@ -41,20 +69,6 @@
                     environment for free.
                 </div>
                 <div class="section-row" id="basic-actions"></div>
-            </div>
-        </div>
-
-        <!-- Bonus action section -->
-        <div id="section-bonus-action" class="section-container">
-            <div class="section-title">
-                Bonus action <span class="float-right">max. 1/turn</span>
-            </div>
-            <div class="section-content">
-                <div class="section-row section-subtitle text fontsize">
-                    You can take a bonus action only when a special ability, spell, or feature
-                    states that you can do something as a bonus action.
-                </div>
-                <div class="section-row" id="basic-bonus-actions"></div>
             </div>
         </div>
 
@@ -94,18 +108,6 @@
                 <div class="section-row section-subtitle text fontsize">
                     Effects that obscure vision can prove a significant hindrance to most adventuring tasks.
                 </div>
-                <div class="section-row" id="environment-obscurance"></div>
-                <div class="section-row section-subtitle text fontsize">
-                    The presence or absence of light in an environment creates three categories of illumination.
-                </div>
-                <div class="section-row" id="environment-light"></div>
-                <div class="section-row section-subtitle text fontsize">
-                    Some creatures have extraordinary senses that allow them to perceive their environment.
-                </div>
-                <div class="section-row" id="environment-vision"></div>
-                <div class="section-row section-subtitle text fontsize">
-                    Obstacles can provide cover during combat, making a target more difficult to harm.
-                </div>
                 <div class="section-row" id="environment-cover"></div>
             </div>
         </div>
@@ -136,9 +138,10 @@
     </div>
 
     <!-- Data -->
+    <script type="text/javascript" src="js/data_round.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_stances.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_movement.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_action.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_bonusaction.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_reaction.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_condition.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_environment.js" charset="utf-8"></script>
