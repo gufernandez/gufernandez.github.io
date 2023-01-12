@@ -33,8 +33,8 @@ data_reaction = [
         bullets: [
             "After one attack roll targeting the character, they can roll one opposite attack to parry, applying bonus",
             "If the character attack surpass the one they're suffering, the attack is denied.",
-            "If it's exactly the same, than the character denies it and can attack immediately",
-            "Otherwise, the parry fails and the user takes +1 damage"
+            "If it's exactly the same, than the character denies it and can attack immediately with double damage.",
+            "Otherwise, the parry fails and the user takes +1 damage."
         ]
     },
     {
